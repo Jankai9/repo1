@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="piano.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+
+    </head>
+    <body>
+        <div>
+            <img src="kuvat/paneeli.png" />
+        </div>
+        <div id="xxx">
+            <div id="koskettimisto">
+                <img src="kuvat/koskettimisto.png" />
+                <div id="C4" class="kosketinWHITE" ><span>C4</span></div>
+                <div id="Db4" class="kosketinBLACK" ><span>C#</span></div>
+                <div id="D4" class="kosketinWHITE"><span>D4</span></div>
+                <div id="Eb4" class="kosketinBLACK"><span>D#</span></div>
+                <div id="E4" class="kosketinWHITE"><span>E4</span></div>
+                <div id="F4" class="kosketinWHITE"><span>F4</span></div>
+                <div id="Gb4" class="kosketinBLACK"><span>F#</span></div>
+                <div id="G4" class="kosketinWHITE"><span>G4</span></div>
+                <div id="Ab4" class="kosketinBLACK"><span>G#</span></div>
+                <div id="A4" class="kosketinWHITE"><span>A4</span></div>
+                <div id="Bb4" class="kosketinBLACK"><span>A#</span></div>
+                <div id="B4" class="kosketinWHITE"><span>B4</span></div>
+                
+            </div>
+        </div>
+        <div id="napit">
+            <div><span id="toista">toista</span></div>
+            <div><span id="nollaa">nollaa/aloita</span></div>
+            <div><span id="tilasto">tilasto</span></div>
+        </div>
+        
+        <!-- html4 play-->       
+        <span id="dummy"></span>
+        
+        <div id="debug">
+            <div>tila:<span id="tila"></span></div>
+            <div>kohde:<span id="kohdeNuotti"></span></div>
+            <div>valittu:<span id="valittuNuotti"></span></div>
+            <div>oikein:<span id="oikein"></span></div>
+            <div>vaarin:<span id="vaarin"></span></div>
+        </div>
+        
+        <audio id="aC4"> <source src="nuotit/Piano.mf.C4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aDb4"> <source src="nuotit/Piano.mf.Db4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aD4"> <source src="nuotit/Piano.mf.D4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aEb4"> <source src="nuotit/Piano.mf.Eb4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aE4"> <source src="nuotit/Piano.mf.E4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aF4"> <source src="nuotit/Piano.mf.F4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aGb4"> <source src="nuotit/Piano.mf.Gb4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aG4"> <source src="nuotit/Piano.mf.G4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aAb4"> <source src="nuotit/Piano.mf.Ab4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aA4"> <source src="nuotit/Piano.mf.A4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aBb4"> <source src="nuotit/Piano.mf.Bb4.ogg" type="audio/ogg" /> </audio>
+        <audio id="aB4"> <source src="nuotit/Piano.mf.B4.ogg" type="audio/ogg" /> </audio>
+                
+        <script src="piano.js"></script>
+    </body>
+</html>

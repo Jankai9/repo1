@@ -1,0 +1,96 @@
+body {
+    background-color: grey;
+}
+
+span {
+    color: yellow;
+}
+
+div.paneeli {
+    background-image: url("kuvat/paneeli.png");
+}
+
+.kosketinBLACK,.kosketinWHITE {
+    position:fixed;
+    top:0px;
+    opacity: 0.2;
+}
+
+.kosketinBLACK {
+    // background-color: green;
+    padding-top: 143px;
+    width:24px;    
+}
+
+.kosketinWHITE {
+    // background-color: blue;
+    margin-top:10px;    
+    padding-top: 220px;
+    width:33px;    
+}
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#koskettimisto {
+    position:absolute;
+}
+
+#koskettimisto div {
+    position: absolute;
+}
+
+#C4 {
+   left:4px; 
+}
+#Db4 {
+   left:23px; 
+}
+#D4 {
+   left:42px; 
+}
+#Eb4 {
+   left:68px; 
+}
+#E4 {
+   left:77px; 
+}   
+#F4 {
+   left:111px; 
+}   
+#Gb4 {
+   left:130px; 
+}    
+#G4 {
+   left:146px; 
+}
+#Ab4 {
+   left:174px; 
+}
+#A4 {
+   left:182px; 
+}
+#Bb4 {
+   left:213px; 
+}
+#B4 {
+   left:217px; 
+}
+
+#debug {
+    display:inline;
+    position:fixed;
+    top: 350px;
+    left:300px;
+}
+
+#napit {
+    position: fixed;
+    top: 350px;
+    left: 600px;
+}
